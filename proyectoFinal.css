@@ -1,0 +1,505 @@
+/*tamaño original*/
+#dispositivo{
+    top: 0%;
+    left: 0px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(imagenesPagina/laptop.png);
+    background-size: 45px;
+    background-repeat: no-repeat;
+}
+#almac{
+    position: relative;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    background-color: rgb(66 126 204 / 89%);
+    color: white;
+    margin: 0px;
+    left: 10%;
+    border: solid 1px black;
+}
+#alma1{text-align: center;
+    margin-top: 0px;
+}
+#alma2{
+    text-align: center;
+    margin-top: -15px;
+}
+
+#redes{
+    width: 136px;
+    height: 319px;
+    background-color: rgba(196, 219, 248, 0.89);
+    border-radius: 25px;
+    border: 1px solid black ;
+    text-align: center;
+    left: 6px;
+    position: absolute;
+    top: 22%;
+}
+#frutillita{
+    width: 15px;
+    border-radius: 100%;
+}
+
+#infoaux{
+    font-size: small;
+    font-family: monospace;
+    margin: 14px
+}
+#faceicon{
+    position: absolute;
+    width: 19px;
+    left: 9%;
+    top: 18%;
+    border-radius: 200%;
+}
+#twicon{
+    position: absolute;
+    width: 17px;
+    left: 9%;
+    top: 24%;
+    border-radius: 65px;
+}
+#gmailicon{
+    position: absolute;
+    width: 16px;
+    left:9%;
+    top: 37%;
+    border-radius:20px ;
+    
+
+}
+#intagramicon{
+    position: absolute;
+    width: 16px;
+    left: 10%;
+    top: 31%;
+    border-radius: 30px;
+}
+#frutiicon1{
+    position: absolute;
+    width: 35px;
+    left: 1%;
+    top: 1%;
+ 
+}
+#seleccion{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    text-align: center;
+}
+/*productos*/
+#nomproducto1{
+    position: absolute;
+    width: 221px;
+    height: 15px;
+   left: 17%;
+    top: 32%;
+    font-size: small;
+    text-align: center;
+    border: black solid;
+}
+#nomproducto2{
+    position: absolute;
+    width: 249px;
+    height: 15px;
+    left: 35%;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 32%;
+}
+#nomproducto3{
+     position: absolute;
+    width: 249px;
+    height: 15px;
+    left: 60%;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 32%;
+}
+#nomproducto4{
+     position: absolute;
+    width: 249px;
+    height: 15px;
+    left: 17%;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 73%;
+}
+#nomproducto5{
+     position: absolute;
+    width: 249px;
+    height: 15px;
+    left: 35%;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 73%;
+}
+#nomproducto6{
+     position: absolute;
+    width: 249px;
+    height: 15px;
+    left: 60%;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 73%;
+}
+#nomproducto7{
+     position: absolute;
+    width: 249px;
+    height: 15px;
+    left: 17%;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 113%;
+}
+#precio1{    position: absolute;
+    width: 221px;
+    height: 12px;
+    left: 17%;
+    text-align: center;
+    font-size: small;
+    border: solid black;
+    top: 35%;
+}
+#precio2{
+    position: absolute;
+    width: 249px;
+    height: 12px;
+    left: 35%;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 35%;
+}
+#precio3{
+        position: absolute;
+    width: 249px;
+    height: 12px;
+    left: 60%;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 35%;
+}
+#precio4{
+        position: absolute;
+    width: 249px;
+    height: 12px;
+    left: 17%;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 76%;
+}
+#precio5{
+        position: absolute;
+    width: 249px;
+    height: 12px;
+    left: 35%;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 76%;
+}
+#precio6{
+        position: absolute;
+    width: 249px;
+    height: 12px;
+    left: 60%;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 76%;
+}
+#precio7{    position: absolute;
+    width: 249px;
+    height: 12px;
+    left: 17%;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    border: black solid;
+    top: 116%;
+}
+#imagen1{
+    height: 172px;
+    width: 172px;
+    position: absolute;
+    left: 22%;
+    top: 40%;
+    border: black solid;
+}
+#imagen2{
+    height: 172px;
+    width: 172px;
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    border: black solid;
+}
+#imagen3{
+    height: 172px;
+    width: 172px;
+    border: black solid;
+    position: absolute;
+    left: 65%;
+    top: 40%
+}
+#imagen4{
+    height: 172px;
+    width: 172px;
+    position: absolute;
+    left: 22%;
+    top: 81%;
+    border: black solid;
+}
+#imagen5{
+    height: 172px;
+    width: 172px;
+    position: absolute;
+    left: 42%;
+    top: 81%;
+    border: black solid;
+}
+#imagen6{
+    height: 172px;
+    width: 172px;
+    position: absolute;
+    left: 65%;
+    top: 81%;
+    border: black solid;
+}
+#imagen7{
+    height: 172px;
+    width: 172px;
+    position: absolute;
+    left: 22%;
+    top: 120%;
+    border: black solid;
+}
+
+#nomproducto1,
+#nomproducto2,
+#nomproducto3,
+#nomproducto4,
+#nomproducto5,
+#nomproducto6,
+#nomproducto7,
+#precio1,
+#precio2,
+#precio3,
+#precio4,
+#precio5,
+#precio6,
+#precio7{
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#imagen1,
+#imagen2,
+#imagen3,
+#imagen4,
+#imagen5,
+#imagen6,
+#imagen7{
+    border: none;
+}
+/*tamaño mediano*/
+@media all and (min-width:650px) and (max-width:900px){
+    #dispositivo{background-image: url(imagenesPagina/tablet.jpg);}
+    #isAlmacen{
+        font-size: 15px;
+        width: 280px;}
+        #redes{
+            top: 18%;
+            left: 2%;
+            height: 290px;
+            width: 140px;
+}
+#faceicon{left: 6%;top: 20%;}
+#twicon{left: 6%;top: 27%;}
+#intagramicon{left: 6%;top: 34%;}
+#gmailicon{left: 6%;top: 40%;}
+
+
+#nomproducto1{width: 130px;
+    left: 25%;}
+#precio1{width: 130px;
+    left: 25%;}
+#imagen1{width: 130px;
+     top: 38%;left: 26%;}
+
+#nomproducto2{width: 130px;
+    left: 47%;}
+#precio2{width: 130px;
+    left: 47%;}
+#imagen2{width: 130px;top: 38%;
+    left: 48%;}
+
+#nomproducto3{width: 130px;
+    left: 70%;}
+#precio3{width: 130px;
+    left: 70%;}
+#imagen3{ top:38%; width: 130px;left: 71%;}
+
+#nomproducto4{width: 130px;
+    left: 1%;}
+#precio4{width: 130px;
+    left: 1%;}
+#imagen4{width: 130px;
+    left: 2%;top: 79%;}
+
+#nomproducto5{width: 130px;
+    left: 24%;}
+#precio5{width: 130px;left: 24%;}
+#imagen5{width: 130px;
+    top: 79%;left: 25%;}
+
+#nomproducto6{width: 130px;left: 
+    47%;}
+#precio6{width: 130px;
+    left: 47%;}
+#imagen6{width: 130px;
+    left: 48%;
+    top: 79%;}
+
+#nomproducto7{width: 130px;
+    left: 70%; top:73%;}
+#precio7{width: 130px;
+    left: 70%;top:76%;}
+#imagen7{width: 130px;
+    left: 71%;
+    top: 79%;}
+}
+/*tamaño pequeño*/
+@media all and ( max-width: 650px){
+
+    #dispositivo{
+        background-image: url(imagenesPagina/tamañoCelular.jpg);
+    }
+    
+    #isAlmacen{
+        height: 65px;
+        left: 10%;
+    }
+
+    #redes{
+        position: absolute;
+        left: 68%;
+        top: 16%;
+        height: 255px;
+    }
+    #infoaux{
+        font-size: 10px;
+    }
+
+#faceicon{top: 22%;left: 10%;}
+#twicon{top: 30%;left: 10%;}
+#intagramicon{top: 39%;left: 10%;}
+#gmailicon{top: 46%;left: 10%;}
+
+
+
+    #seleccion{
+        left: 12%;
+    }
+    #nomproducto1{top: 25%;
+    left: 2%; 
+    width: 123px;}
+    #precio1{top: 28%;
+    left: 2%;
+    width: 130px;}
+    #imagen1{top: 30%;
+    left: 3%;
+    width: 130px;
+    height: 130x;}
+    
+    #nomproducto2{top: 25%;
+    left: 35%; 
+    width: 123px;}
+    #precio2{top: 28%;
+    left: 35%;
+    width: 130px;}
+    #imagen2{top: 30%;
+    left: 35%;
+    width: 130px;
+    height: 130x;}
+    
+    #nomproducto3{top: 62%;
+    left: 2%; 
+    width: 123px;}
+    #precio3{top: 65%;
+    left: 2%;
+    width: 130px;}
+    #imagen3{top: 67%;
+    left: 3%;
+    width: 130px;
+    height: 130x;}
+    
+    #nomproducto4{top: 59%;
+    left: 35%; 
+    width: 123px;
+    height:20px ;}
+    #precio4{top: 65%;
+    left: 35%;
+    width: 130px;}
+    #imagen4{top: 69%;
+    left: 36%;
+    width: 130px;
+    height: 130x;}
+    
+    #nomproducto5{top: 62%;
+    left: 69%; 
+    width: 123px;}
+    #precio5{top: 65%;
+    left: 69%;
+    width: 130px;}
+    #imagen5{top: 67%;
+    left: 69%;
+    width: 130px;
+    height: 130x;}
+    
+    #nomproducto6{top: 99%;
+    left: 2%; 
+    width: 123px;}
+    #precio6{top: 102%;
+    left: 2%;
+    width: 130px;}
+    #imagen6{top: 104%;
+    left: 3%;
+    width: 130px;
+    height: 130x;}
+    
+    #nomproducto7{top: 99%;
+    left: 35%; 
+    width: 123px;}
+    #precio7{top: 102%;
+    left: 35%;
+    width: 130px;}
+    #imagen7{top: 104%;
+    left: 36%;
+    width: 130px;
+    height: 130x;}
+                      
+        
+
+ 
+        
+}
+    

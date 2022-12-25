@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+h5{
+    font-family: monospace;
+}
+h2{
+    font-size: medium;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(51 65 140 / 84%);
+    border-radius: 14px;
+    width: 605px;
+    height: 41px;
+}
+@media all and (max-width:800px){
+    h2{
+        
+       left: 8%;
+       right: 92%;
+       width: 400px;
+       height: 60px;
+    }
+}

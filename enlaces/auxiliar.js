@@ -1,6 +1,6 @@
-/*function auxiliar2(){
-    alert("Las redes no estan disponibles en este momento..");*/
-
+function auxiliar2(){
+    alert("Las redes no estan disponibles en este momento..");
+}
 let seleccionar = document.querySelector('#tdqueja');
 
 seleccionar.addEventListener('change', avion);
